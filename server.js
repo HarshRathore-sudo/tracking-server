@@ -305,7 +305,7 @@ app.listen(PORT, () => {
   console.log(`
 ╔════════════════════════════════════════╗
 ║   Wedding Outreach Tracking Server     ║
-║   Running on http://localhost:${PORT}    ║
+║   Running                              ║
 ╠════════════════════════════════════════╣
 ║   Endpoints:                           ║
 ║   GET  /health                         ║
