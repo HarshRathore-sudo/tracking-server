@@ -45,18 +45,3 @@ npm start
 - `GET /api/stats/:email` - Get stats for specific email
 - `GET /api/campaign-stats` - Get overall campaign statistics
 
-## Deployment
-
-For email tracking to work with Gmail and other providers, deploy to a proper domain (not ngrok/localhost).
-
-Recommended platforms:
-- Render.com
-- Railway.app
-- Vercel
-- Fly.io
-
-## Important Notes
-
-- Google and other email providers proxy images, so tracking may not be 100% accurate
-- Link click tracking is more reliable than open tracking
-- Some email clients block tracking pixels entirely
