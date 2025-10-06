@@ -54,11 +54,11 @@ class ReplyMonitor {
 
       console.log(`📬 Monitoring inbox for replies...`);
       
-      // Check for new emails every 30 seconds
-      setInterval(() => {
-        this.checkForReplies();
-      }, 30000);
-      
+      // Check for new emails every 5 minutes
+     setInterval(() => {
+       this.checkForReplies();
+     }, 300000);
+
       // Initial check
       this.checkForReplies();
       
